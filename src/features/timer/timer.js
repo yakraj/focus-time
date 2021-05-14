@@ -11,7 +11,7 @@ import {useKeepAwake} from 'expo-keep-awake'
 
 export const Timer = ({ style = {}, textStyle = {}, size = 125, ...props }) => {
 
-const DEFAULT_TIME = 0.1
+const DEFAULT_TIME = 20
 
   useKeepAwake();
   const [minutes, setminutes] = useState(DEFAULT_TIME)
